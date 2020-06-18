@@ -1,4 +1,66 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Juliana Zhu"
+baseURL = "https://julianazhu.github.io/"
+languageCode = "en"
+DefaultContentLanguage = "en"
 theme = "anatole"
+title = "Juliana Zhu"
+author = "Juliana Zhu"
+summarylength = 10
+enableEmoji = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = ""
+
+[params]
+title = "Juliana Zhu"
+author = "Juliana Zhu"
+description = """I am passionate about machine learning, playing with data and writing.
+
+I am also addicted to matcha and think too much."""
+profilePicture = "images/julianazhu.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+mainSections = ["post"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/juliana-zhu-88a5b01b0/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/julianazhu/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:julianazhu89@gmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 200
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About Me"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

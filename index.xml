@@ -29,5 +29,14 @@
       <description>Is it a bird? Is it a plane? No it&amp;rsquo;s a - a - first post!</description>
     </item>
     
+    <item>
+      <title>Test Portfolio Item</title>
+      <link>https://julianazhu.github.io/portfolio/test-portfolio-item/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianazhu.github.io/portfolio/test-portfolio-item/</guid>
+      <description>Nothing to see here</description>
+    </item>
+    
   </channel>
 </rss>
